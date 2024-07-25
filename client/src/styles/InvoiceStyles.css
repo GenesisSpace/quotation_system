@@ -1,0 +1,112 @@
+#invoice-POS {
+  box-shadow: 0 0 1.5in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 10mm; /* Increased padding for readability */
+  margin: 0 auto;
+  width: 160mm; /* Increased width for readability */
+  background: #fff;
+}
+
+h1 {
+  font-size: 2em; /* Increased font size for headings */
+  color: #222;
+}
+h2 {
+  font-size: 1em; /* Adjusted font size for subheadings */
+}
+h3 {
+  font-size: 1.3em; /* Increased font size for sub-subheadings */
+  font-weight: 400; /* Adjusted font weight */
+  line-height: 2em;
+}
+p {
+  font-size: 0.8em; /* Increased font size for paragraphs */
+  color: #666;
+  line-height: 1.5em;
+}
+
+#top,
+#mid,
+#bot {
+  border-bottom: 2px solid #eee; /* Increased border thickness */
+}
+
+#top {
+  min-height: 120px; /* Increased minimum height */
+}
+
+#bot {
+  min-height: 70px; /* Increased minimum height */
+}
+
+#top .logo {
+  height: 80px; /* Increased logo size */
+  width: 80px; /* Increased logo size */
+  /* border-radius: 20%;  Adjusted border radius */
+  background-size: cover; /* Ensure logo covers its container */
+}
+
+.info {
+  display: inline-block; /* Changed display property */
+  margin-left: 10mm; /* Increased margin for information section */
+}
+
+.title {
+  float: right;
+}
+.title p {
+  text-align: right;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabletitle {
+  font-size: 0.7em; /* Adjusted font size for table titles */
+  background: #eee;
+}
+.service {
+  border-bottom: 2px solid #eee; /* Increased border thickness */
+}
+.item {
+  width: 30mm; /* Increased width for items */
+}
+.itemtext {
+  font-size: 0.7em; /* Increased font size for item text */
+}
+
+#legalcopy {
+  margin-top: 10mm; /* Increased margin for legal copy */
+}
+
+.invoice-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px; /* Adjust as per your layout */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profoma-details {
+  margin-bottom: 20px;
+}
+
+.table-wrapper {
+  margin-bottom: 20px;
+}
+
+.legalcopy {
+  font-size: 12px;
+  margin-top: 20px;
+}

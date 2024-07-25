@@ -1,0 +1,42 @@
+{
+  "name": "pos-mern",
+  "version": "1.0.0",
+  "description": "pos mern app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore client ",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "seed": "node seeder.js"
+  },
+  "author": "David Brasto",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.2",
+    "react-to-print": "^2.15.1",
+    "recharts": "^2.12.2",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "seeder": "^0.2.4",
+    "use-history": "^1.4.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
